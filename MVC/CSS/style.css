@@ -1,0 +1,125 @@
+/*generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*búscador*/
+.search-ctr {
+    margin-bottom: 20px;
+}
+
+.search-ctr input[type="search"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*formulario */
+.form-ctr {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-ctr h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-ctr label {
+    font-size: 16px;
+    color: #333;
+}
+
+.form-ctr input[type="text"],
+.form-ctr input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-ctr button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.form-ctr button:hover {
+    background-color: #45a049;
+}
+
+/*tabla*/
+.table-ctr {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.table-ctr h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.table-ctr table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-ctr th, .table-ctr td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table-ctr th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-ctr tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-ctr tr:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+    .form-ctr, .table-ctr {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .search-ctr input[type="search"] {
+        width: 100%;
+    }
+}
